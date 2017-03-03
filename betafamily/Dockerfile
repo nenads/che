@@ -4,3 +4,5 @@ RUN apt-get -y update && apt-get install -y \
     joe \
     mc \
     htop \
+
+EXPOSE 80 3306
