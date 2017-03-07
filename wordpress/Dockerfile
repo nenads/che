@@ -73,4 +73,5 @@ WORKDIR /projects
 
 CMD sudo chown -R www-data:www-data /projects && \
     sudo chmod -R 777 /projects && \
+    sudo service mysql start && \
     tail -f /dev/null
