@@ -2,8 +2,8 @@ FROM ubuntu:14.04
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV CHE_MYSQL_PASSWORD=root
-ENV CHE_MYSQL_DB=root
-ENV CHE_MYSQL_USER=thebetafamily
+ENV CHE_MYSQL_DB=thebetafamily
+ENV CHE_MYSQL_USER=root
 
 #install 
 RUN sudo apt-get -y update && sudo apt-get install -y vim joe mc htop nginx php5-fpm php5-cli php5-mcrypt php5-gd redis-server curl php5-curl php5-mysql mysql-server rubygems-integration ruby ruby-compass
